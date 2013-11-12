@@ -1,0 +1,7 @@
+# I haz testfile
+
+int main() {
+    
+    putchar('x');
+
+}

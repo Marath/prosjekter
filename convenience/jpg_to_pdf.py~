@@ -1,0 +1,4 @@
+import os
+
+img_in = sys.argv[1]
+img_out = sys.argv[2]

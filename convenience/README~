@@ -1,0 +1,5 @@
+
+JPG to PFG converter written in Python. Wrote this because i got no scanner,
+and using it when i upload documents.
+
+Usage: jpg_to_pdf.py <infile.jpg> <outfile.pdf>

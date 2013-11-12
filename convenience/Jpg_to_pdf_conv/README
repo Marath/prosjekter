@@ -1,0 +1,6 @@
+
+JPG to PDF converter written in Python. Wrote this because i cannot afford a
+ scanner, and am forced to take pictures of documents with a cam. Feel free to
+use.
+
+Usage: jpg_to_pdf.py <infile.jpg> <outfile.pdf>
