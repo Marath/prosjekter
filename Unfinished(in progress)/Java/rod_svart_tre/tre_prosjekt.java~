@@ -1,0 +1,71 @@
+public class tre_prosjekt {
+    public static void main(String args[]) {
+
+    }
+}
+
+// Node class
+class Node {
+    String contents;
+    int tag;
+    private Node left, right, parent;
+    
+    Node(int i, char col, String s) 
+    {
+	contents = s;
+	tag = i;
+    }
+
+    public Node getRight() 
+    {
+	return right;
+    }
+    
+    Node getLeft() 
+    {
+	return left;
+    } 
+}
+
+// Tree class
+class Tree {
+    Node root;
+
+    Tree() {
+
+    }
+    
+    public void Insert(Node n, int tag, char color, String s) 
+    {
+	if(root == null) 
+	    root = new Node(tag, color, s);
+	    
+	
+	if(tag <= n.getLeft().tag) 
+	    Insert(n.getLeft(), tag, color, s);
+	else 
+	    Insert(n.getRight(), tag, color, s);
+	
+	
+    }
+    
+    public void deleteAll() 
+    {
+	root = null;
+    }
+
+    public void mirrorTree() 
+    {
+	Node n = root;
+	Node dummy;
+	Node right = n.getRight();
+	Node left = n.getLeft();
+	
+	
+    }
+    public void printTree() 
+    {
+
+    }
+
+}
